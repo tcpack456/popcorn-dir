@@ -1,12 +1,12 @@
 <?php
     $files = array(6);
 
-    $files[] = fopen('popcorn-dir.github.io/lion.txt', 'r');
-    $files[] = fopen('popcorn-dir.github.io/tiger.txt', 'r');
-    $files[] = fopen('popcorn-dir.github.io/wolf.txt', 'r');
-    $files[] = fopen('popcorn-dir.github.io/bear.txt', 'r');
-    $files[] = fopen('popcorn-dir.github.io/webelos.txt', 'r');
-    $files[] = fopen('popcorn-dir.github.io/arrow-of-light.txt', 'r');
+    $files[1] = fopen('popcorn-dir.github.io/lion.txt', 'r');
+    $files[2] = fopen('popcorn-dir.github.io/tiger.txt', 'r');
+    $files[3] = fopen('popcorn-dir.github.io/wolf.txt', 'r');
+    $files[4] = fopen('popcorn-dir.github.io/bear.txt', 'r');
+    $files[5] = fopen('popcorn-dir.github.io/webelos.txt', 'r');
+    $files[6] = fopen('popcorn-dir.github.io/arrow-of-light.txt', 'r');
   
 
     $scouts = array(11);
@@ -22,7 +22,7 @@
         }
     }
 
-    $n = rand(0, count($scouts));
+    $n = rand(11, count($scouts));
     
     $scout = $scouts[$n];
     $name = trim($scout[0]);
