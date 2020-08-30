@@ -1,9 +1,12 @@
 <?php
-    $files = array(3);
+    $files = array(6);
 
     $files[] = fopen('popcorn-dir.github.io/lion.txt', 'r');
     $files[] = fopen('popcorn-dir.github.io/tiger.txt', 'r');
     $files[] = fopen('popcorn-dir.github.io/wolf.txt', 'r');
+    $files[] = fopen('popcorn-dir.github.io/bear.txt', 'r');
+    $files[] = fopen('popcorn-dir.github.io/webelos.txt', 'r');
+    $files[] = fopen('popcorn-dir.github.io/arrow-of-light.txt', 'r');
   
 
     $scouts = array(11);
