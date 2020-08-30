@@ -4,11 +4,11 @@
       $path = 'update.txt';
       $fh = fopen($path, "w");
 
-      $goal = 20000;
+      $goal = 3000;
       $sold = (int) $_POST['total-sold'];
       $percent = (float) $sold / $goal;
       $updated  = date('M d, Y');
-      $deadline = date('M d, Y', mktime(0,0,0,10,26,2020));
+      $deadline = date('M d, Y', mktime(0,0,0,10,29,2020));
 
       $formatter = new NumberFormatter('en_US', NumberFormatter::CURRENCY);
       $goal_str = str_replace('.00', '', $formatter->formatCurrency(floor($goal), 'USD'));
