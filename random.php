@@ -1,12 +1,10 @@
 <?php
-    $files = array();
+    $files = array(3);
 
     $files[] = fopen('popcorn-dir.github.io/lion.txt', 'r');
     $files[] = fopen('popcorn-dir.github.io/tiger.txt', 'r');
     $files[] = fopen('popcorn-dir.github.io/wolf.txt', 'r');
-    $files[] = fopen('popcorn-dir.github.io/bear.txt', 'r');
-    $files[] = fopen('popcorn-dir.github.io/webelos.txt', 'r');
-    $files[] = fopen('popcorn-dir.github.io/arrow-of-light.txt', 'r');
+  
 
     $scouts = array(11);
 
@@ -17,7 +15,7 @@
         {
             //$url = "https://www.trails-end.com/store/scout/" . trim($data[1]);
             //echo "<li><a href=\"$url\">" . trim($data[0]) . "</a></li>\n";
-            $scouts[] = $data;
+            $scouts[11] = $data;
         }
     }
 
