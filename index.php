@@ -9,9 +9,9 @@ $updated = fgets($file);
 $deadline = fgets($file);
 
 
-//$goal = "$5,000";
+//$goal = "$3,000";
 //$raised = "$1,355";
-//$progress = "27%";
+//$progress = "45%";
 //$updated = "Aug. 30, 2020";
 //$deadline = "Oct. 29, 2020";
 
@@ -180,7 +180,7 @@ function list_scouts($arg)
       <h1 class="display-3">2020 Popcorn Fundraiser</h1>
       <p>Due to the ongoing and unpredictable nature of Covid-19, we are relying on online sales to meet our fundraising goal for the year and help keep Scouting affordable for all of the families in our pack.</p>
       <p>Please choose a Scout from the list below or click the button below support a randomly-selected Scout from our pack!</p>
-      <p><a class="btn btn-primary btn-lg" href="http://hspack361.com/popcorn/random.php" role="button" target="_blank">Support a Random Scout!</a></p>
+      <p><a class="btn btn-primary btn-lg" href="https://github.com/tcpack456/popcorn-dir/blob/master/random.php" role="button" target="_blank">Support a Random Scout!</a></p>
       <p>Thank you for supporting Pack 456!</p>
     </div>
   </div>
@@ -226,32 +226,32 @@ function list_scouts($arg)
       <div class="col-6 col-sm-4 col-md-4">
         <h2>Lion</h2>
         <p><img src="./img/lion_150px.png" style="width:100px;"></p>
-	      <p><?php list_scouts('lion.txt'); ?></p>
+	      <p><?php list_scouts('./data/lion.txt'); ?></p>
       </div>
       <div class="col-6 col-sm-4 col-md-4">
         <h2>Tiger</h2>
         <p><img src="./img/tiger_150px.jpg" style="width:100px;"></p>
-	      <p><?php list_scouts('tiger.txt'); ?></p>
+	      <p><?php list_scouts('./data/tiger.txt'); ?></p>
       </div>
       <div class="col-6 col-sm-4 col-md-4">
         <h2>Wolf</h2>
         <p><img src="./img/wolf_150px.jpg" style="width:100px;"></p>
-	      <p><?php list_scouts('wolf.txt'); ?></p>
+	      <p><?php list_scouts('./data/wolf.txt'); ?></p>
       </div>
       <div class="col-6 col-sm-4 col-md-4">
         <h2>Bear</h2>
         <p><img src="./img/bear_150px.jpg" style="width:100px;"></p>
-  	    <p><?php list_scouts('bear.txt'); ?></p>
+  	    <p><?php list_scouts('./data/bear.txt'); ?></p>
       </div>
       <div class="col-6 col-sm-4 col-md-4">
         <h2>Webelos</h2>
         <p><img src="./img/webelos_150px.png" style="height:100px";></p>
-	      <p><?php list_scouts('webelos.txt'); ?></p>
+	      <p><?php list_scouts('./data/webelos.txt'); ?></p>
       </div>
       <div class="col-6 col-sm-4 col-md-4">
         <h2>Arrow of Light</h2>
         <p><img src="./img/arrow-of-light_150px.png" style="height:100px";></p>
-      	<p><?php list_scouts('arrow-of-light.txt'); ?></p>
+      	<p><?php list_scouts('./data/arrow-of-light.txt'); ?></p>
       </div>
     </div>
     <div class="row" style="margin-bottom:50px;">
@@ -261,7 +261,7 @@ function list_scouts($arg)
       <div class="col-8 col-lg-4">
         <h2>QR Code Sharing</h2>
         <p>Use this QR code to share this page!</p>
-        <p><img src="https://github.com/tcpack456/popcorn-dir.github.io/blob/master/qr-code_smaller.jpg?raw=true" style="width:75%";></p>
+        <p><img src="https://github.com/tcpack456/popcorn-dir/blob/master/img/qr-code_smaller.jpg?raw=true" style="width:75%";></p>
       </div>
       <div class="col-2 col-lg-4">
         &nbsp;
