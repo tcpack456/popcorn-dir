@@ -1,14 +1,14 @@
 <?php
     $files = array();
 
-    $files[] = fopen('./data/lion.txt', 'r');
-    $files[] = fopen('./data/tiger.txt', 'r');
-    $files[] = fopen('./data/wolf.txt', 'r');
-    $files[] = fopen('./data/bear.txt', 'r');
-    $files[] = fopen('./data/webelos.txt', 'r');
-    $files[] = fopen('./data/arrow-of-light.txt', 'r');
+    $files[] = fopen('popcorn-dir.github.io/lion.txt', 'r');
+    $files[] = fopen('popcorn-dir.github.io/tiger.txt', 'r');
+    $files[] = fopen('popcorn-dir.github.io/wolf.txt', 'r');
+    $files[] = fopen('popcorn-dir.github.io/bear.txt', 'r');
+    $files[] = fopen('popcorn-dir.github.io/webelos.txt', 'r');
+    $files[] = fopen('popcorn-dir.github.io/arrow-of-light.txt', 'r');
 
-    $scouts = array();
+    $scouts = array(11);
 
     for($i=0 ; $i<count($files); $i++)
     {
