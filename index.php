@@ -9,11 +9,11 @@ $updated = fgets($file);
 $deadline = fgets($file);
 
 
-//$goal = "$20,000";
-//$raised = "$1,050";
-//$progress = "5%";
-//$updated = "Aug. 12, 2020";
-//$deadline = "Oct. 26, 2020";
+//$goal = "$5,000";
+//$raised = "$1,355";
+//$progress = "27%";
+//$updated = "Aug. 30, 2020";
+//$deadline = "Oct. 29, 2020";
 
 function list_scouts($arg)
 {
@@ -31,7 +31,7 @@ function list_scouts($arg)
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Cub Scout Pack 361 - Huntsville, Ala. - 2020 Popcorn Fundraiser</title>
+    <title>Cub Scout Pack 456 - Fort Pierce, Florida - 2020 Popcorn Fundraiser</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -181,7 +181,7 @@ function list_scouts($arg)
       <p>Due to the ongoing and unpredictable nature of Covid-19, we are relying on online sales to meet our fundraising goal for the year and help keep Scouting affordable for all of the families in our pack.</p>
       <p>Please choose a Scout from the list below or click the button below support a randomly-selected Scout from our pack!</p>
       <p><a class="btn btn-primary btn-lg" href="http://hspack361.com/popcorn/random.php" role="button" target="_blank">Support a Random Scout!</a></p>
-      <p>Thank you for supporting Pack 361!</p>
+      <p>Thank you for supporting Pack 456!</p>
     </div>
   </div>
 
@@ -226,32 +226,32 @@ function list_scouts($arg)
       <div class="col-6 col-sm-4 col-md-4">
         <h2>Lion</h2>
         <p><img src="./img/lion_150px.png" style="width:100px;"></p>
-	      <p><?php list_scouts('./data/lion.txt'); ?></p>
+	      <p><?php list_scouts('lion.txt'); ?></p>
       </div>
       <div class="col-6 col-sm-4 col-md-4">
         <h2>Tiger</h2>
         <p><img src="./img/tiger_150px.jpg" style="width:100px;"></p>
-	      <p><?php list_scouts('./data/tiger.txt'); ?></p>
+	      <p><?php list_scouts('tiger.txt'); ?></p>
       </div>
       <div class="col-6 col-sm-4 col-md-4">
         <h2>Wolf</h2>
         <p><img src="./img/wolf_150px.jpg" style="width:100px;"></p>
-	      <p><?php list_scouts('./data/wolf.txt'); ?></p>
+	      <p><?php list_scouts('wolf.txt'); ?></p>
       </div>
       <div class="col-6 col-sm-4 col-md-4">
         <h2>Bear</h2>
         <p><img src="./img/bear_150px.jpg" style="width:100px;"></p>
-  	    <p><?php list_scouts('./data/bear.txt'); ?></p>
+  	    <p><?php list_scouts('bear.txt'); ?></p>
       </div>
       <div class="col-6 col-sm-4 col-md-4">
         <h2>Webelos</h2>
         <p><img src="./img/webelos_150px.png" style="height:100px";></p>
-	      <p><?php list_scouts('./data/webelos.txt'); ?></p>
+	      <p><?php list_scouts('webelos.txt'); ?></p>
       </div>
       <div class="col-6 col-sm-4 col-md-4">
         <h2>Arrow of Light</h2>
         <p><img src="./img/arrow-of-light_150px.png" style="height:100px";></p>
-      	<p><?php list_scouts('./data/arrow-of-light.txt'); ?></p>
+      	<p><?php list_scouts('arrow-of-light.txt'); ?></p>
       </div>
     </div>
     <div class="row" style="margin-bottom:50px;">
@@ -261,7 +261,7 @@ function list_scouts($arg)
       <div class="col-8 col-lg-4">
         <h2>QR Code Sharing</h2>
         <p>Use this QR code to share this page!</p>
-        <p><img src="./img/qr-popcorn.png" style="width:75%";></p>
+        <p><img src="https://github.com/tcpack456/popcorn-dir.github.io/blob/master/qr-code_smaller.jpg?raw=true" style="width:75%";></p>
       </div>
       <div class="col-2 col-lg-4">
         &nbsp;
@@ -271,10 +271,10 @@ function list_scouts($arg)
   </div> <!-- /container -->
 </main>
 <footer class="container">
-  <p><a href="https://github.com/dimwell/popcorn-dir" target="_blank">Built using GitHub.</a>
-  <br>Cub Scout Pack 361 (<a href="mailto:hspack361@gmail.com">hspack361@gmail.com</a>) - Huntsville, Ala.
-  <br>Part of the <a href="http://1bsa.org" target="_blank">Greater Alabama Council</a>, <a href="http://scouting.org/" target="_blank">Boy Scouts of America</a>
-  <br>Chartered by <a href="https://holyspirithsv.com/">Holy Spirit Catholic Church</a> since 1967.</p>
+  <p><a href="https://github.com/tcpack456/popcorn-dir" target="_blank">Built using GitHub.</a>
+  <br>Cub Scout Pack 456 (<a href="mailto:tcpack456@gmail.com">TCPack456@gmail.com</a>) - Fort Pierce, Fl.
+  <br>Part of the <a href="https://www.gulfstreamcouncil.org/" target="_blank">Gulf Stream Council</a>, <a href="http://scouting.org/" target="_blank">Boy Scouts of America</a>
+  <br>Chartered by <a href="https://gothecrossing.com/">The Crossing Community Church</a> since 2020.</p>
 </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
